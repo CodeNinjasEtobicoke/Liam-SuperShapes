@@ -35,6 +35,8 @@ public class PlayerControls : MonoBehaviour
 
     {
         Time.timeScale = 0;
+        GameObject.Find("GameController").GetComponent<GameController>().GameOver();
+
 
     }
 }
